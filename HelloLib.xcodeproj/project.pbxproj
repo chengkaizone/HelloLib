@@ -10,6 +10,7 @@
 		EA896EE42367EC0000BF2BD0 /* HelloLib.h in Headers */ = {isa = PBXBuildFile; fileRef = EA896EE22367EC0000BF2BD0 /* HelloLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA896EEC2367EC4700BF2BD0 /* HelloLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA896EEB2367EC4700BF2BD0 /* HelloLibrary.swift */; };
 		EA896EEE2367F11600BF2BD0 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA896EED2367F11600BF2BD0 /* Package.swift */; };
+		EA896EF02367F29500BF2BD0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EA896EEF2367F29500BF2BD0 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		EA896EE32367EC0000BF2BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA896EEB2367EC4700BF2BD0 /* HelloLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloLibrary.swift; sourceTree = "<group>"; };
 		EA896EED2367F11600BF2BD0 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		EA896EEF2367F29500BF2BD0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,8 +36,9 @@
 		EA896ED52367EC0000BF2BD0 = {
 			isa = PBXGroup;
 			children = (
+				EA896EEF2367F29500BF2BD0 /* README.md */,
 				EA896EED2367F11600BF2BD0 /* Package.swift */,
-				EA896EE12367EC0000BF2BD0 /* HelloLib */,
+				EA896EE12367EC0000BF2BD0 /* Source */,
 				EA896EE02367EC0000BF2BD0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,20 +51,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA896EE12367EC0000BF2BD0 /* HelloLib */ = {
-			isa = PBXGroup;
-			children = (
-				EA896EEA2367EC1800BF2BD0 /* Source */,
-				EA896EE22367EC0000BF2BD0 /* HelloLib.h */,
-				EA896EE32367EC0000BF2BD0 /* Info.plist */,
-			);
-			path = HelloLib;
-			sourceTree = "<group>";
-		};
-		EA896EEA2367EC1800BF2BD0 /* Source */ = {
+		EA896EE12367EC0000BF2BD0 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				EA896EEB2367EC4700BF2BD0 /* HelloLibrary.swift */,
+				EA896EE22367EC0000BF2BD0 /* HelloLib.h */,
+				EA896EE32367EC0000BF2BD0 /* Info.plist */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -136,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA896EF02367F29500BF2BD0 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
