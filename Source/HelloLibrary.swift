@@ -13,13 +13,13 @@ public func calAdd(a: Int, b: Int) ->Int {
 }
 
 
-open class HelloLibrary {
+public class HelloLibrary {
     
     public init() {
         
     }
     
-    open func calSub(a: Int, b: Int) ->Int {
+    public func calSub(a: Int, b: Int) ->Int {
         return a - b
     }
     
