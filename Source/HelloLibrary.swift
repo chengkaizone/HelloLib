@@ -15,7 +15,7 @@ public func calAdd(a: Int, b: Int) ->Int {
 
 open class HelloLibrary {
     
-    init() {
+    public init() {
         
     }
     
