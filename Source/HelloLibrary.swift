@@ -16,14 +16,18 @@ public func calAdd(a: Int, b: Int) ->Int {
 open class HelloLibrary {
     
     public init() {
-        
+        NSLog("This is \(NSStringFromClass(HelloLibrary.self))")
     }
     
     public func calSub(a: Int, b: Int) ->Int {
+        
+        NSLog("This is \(NSStringFromClass(HelloLibrary.self)) calSub")
         return a - b
     }
     
     open func calMul(a: Int, b: Int) ->Int {
+        
+        NSLog("This is \(NSStringFromClass(HelloLibrary.self)) calMul")
         return a * b
     }
     
