@@ -15,6 +15,10 @@ public func calAdd(a: Int, b: Int) ->Int {
 
 public class HelloLibrary {
     
+    init() {
+        
+    }
+    
     public func calSub(a: Int, b: Int) ->Int {
         return a - b
     }
